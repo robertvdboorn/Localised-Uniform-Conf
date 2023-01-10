@@ -30,10 +30,14 @@ Make a .env file based on the example provided (.env.example) and remove the key
 ### Import Uniform packages
 
 ```shell
-pnpm run push:context:enrichments
-pnpm run push:context:signals
-pnpm run push:components
-pnpm run push:compositions
+uniform context enrichment push ./data/context/enrichments
+uniform context signal push ./data/context/signals
+
+uniform canvas component push ./data/components
+uniform canvas composition push ./data/compositions
+
+uniform project-map definition push ./data/project-map/definition
+uniform project-map node push ./data/project-map/nodes
 ```
 
 ### Publish Manifest and Canvas
