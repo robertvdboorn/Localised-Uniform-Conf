@@ -1,6 +1,6 @@
 # UniformConf Next.js Starter
 
-This is a [Next.js](https://nextjs.org/) application with enhancers for multiple CMS system.
+This is a [Next.js](https://nextjs.org/) application with enhancers for multiple CMS systems.
 
 ## Getting Started
 
