@@ -3,7 +3,7 @@ import { ComponentInstance } from '@uniformdev/canvas';
 export const kontentModelConverter = ({ component, parameter }: { component: ComponentInstance; parameter: any }) => {
 
     if (component.type === 'HeroKontent') {
-        console.log(parameter?.value)
+
         const returnValue = {
             title: parameter?.value?.elements?.title?.value || '', 
             description: parameter?.value?.elements?.description?.value || '', 
